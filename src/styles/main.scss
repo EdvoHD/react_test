@@ -1,0 +1,27 @@
+
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'Navbar.scss';
+@import 'Form.scss';
+@import 'Card.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#root {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.card-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include mobile {
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+}

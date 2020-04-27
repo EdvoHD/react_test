@@ -18,6 +18,7 @@ div.card {
         flex-direction: column;
         justify-content: space-between;
         align-items: baseline;
+        background: $white-color;
 
         .card-title {
             font-size: 1.1rem;
